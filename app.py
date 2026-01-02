@@ -80,6 +80,9 @@ def colleges():
                         break
         
         csv_path = os.path.join(search_dir, csv_filename)
+    elif dept_filter == 'B.Tech':
+        csv_filename = f'BTECH_OUTPUT_CAP{round_filter}.csv'
+        csv_path = os.path.join(base_dir, 'data', 'btech', csv_filename)
     else:
         csv_filename = f'polytechnic_cutoff_data_cap_{round_filter}.csv'
         csv_path = os.path.join(base_dir, 'data', 'polytechnic', csv_filename)
@@ -94,6 +97,7 @@ def colleges():
     universities = []
     quotas = []
     areas = []
+    genders = []
     
     if os.path.exists(csv_path):
         try:
@@ -179,6 +183,8 @@ def colleges():
                 df['course_name'] = df['course']
             elif 'subject' in df.columns:
                 df['course_name'] = df['subject']
+            elif 'branch_name' in df.columns:
+                df['course_name'] = df['branch_name']
 
         # Handle Seat Type aliases (AI files)
         if 'seat_type' not in df.columns and 'type' in df.columns:
@@ -208,11 +214,16 @@ def colleges():
             if courses:
                 specialties = [{"name": c, "icon": "🎓"} for c in courses]
         
-        # Get unique categories and seat types
-        if 'category' in df.columns:
+        # Get unique categories (Prioritize category1)
+        if 'category1' in df.columns:
+            cats = sorted(df['category1'].dropna().unique().tolist())
+            if cats:
+                categories = cats
+        elif 'category' in df.columns:
             cats = sorted(df['category'].dropna().unique().tolist())
             if cats:
                 categories = cats
+
         if 'seat_type' in df.columns:
             seats = sorted(df['seat_type'].dropna().unique().tolist())
             if seats:
@@ -229,6 +240,12 @@ def colleges():
             qs = sorted(df['quota'].dropna().unique().tolist())
             if qs:
                 quotas = qs
+        
+        # Get unique genders (Candidate Gender)
+        if 'gender' in df.columns:
+            gs = sorted(df['gender'].dropna().unique().tolist())
+            if gs:
+                genders = gs
         
         # Extract Area from Institute Name (Format: "Name, Area")
         if 'institute_name' in df.columns:
@@ -255,13 +272,17 @@ def colleges():
     min_rank_filter = request.args.get('min_rank', '')
     max_rank_filter = request.args.get('max_rank', '')
     category_filter = request.args.get('category', '')
+    category1_filter = request.args.get('category1', '')
+    candidate_gender_filter = request.args.get('candidate_gender', '')
     seat_type_filter = request.args.get('seat_type', '')
     university_filter = request.args.get('university', '')
     area_filter = request.args.get('area', '')
 
     # Determine if we should load data (MCA and MBA allow loading without specialty)
-    is_mca_or_mba = (dept_filter in ['MCA', 'MBA', 'BCA'])
+    is_mca_or_mba = (dept_filter in ['MCA', 'MBA', 'BCA', 'B.Tech'])
     
+    temp_df = pd.DataFrame()
+
     if (specialty_filter or is_mca_or_mba) and not df.empty:
         # Filter by Branch (Exact Match)
         temp_df = df
@@ -330,6 +351,14 @@ def colleges():
         # Filter by Category
         if category_filter and 'category' in temp_df.columns:
             temp_df = temp_df[temp_df['category'] == category_filter]
+            
+        # Filter by Category1
+        if category1_filter and 'category1' in temp_df.columns:
+            temp_df = temp_df[temp_df['category1'] == category1_filter]
+
+        # Filter by Candidate Gender
+        if candidate_gender_filter and 'gender' in temp_df.columns:
+            temp_df = temp_df[temp_df['gender'] == candidate_gender_filter]
 
         # Filter by Seat Type
         if seat_type_filter and 'seat_type' in temp_df.columns:
@@ -343,32 +372,47 @@ def colleges():
         if 'percentile' in temp_df.columns:
             temp_df = temp_df.sort_values(by='percentile', ascending=False)
 
-        # Convert to dictionary list for template
-        for _, row in temp_df.iterrows():
-            doc_dict = row.to_dict()
-            # Clean NaNs for JSON serialization
-            for k, v in doc_dict.items():
-                if pd.isna(v):
-                    doc_dict[k] = None
+    # Pagination Logic
+    page = request.args.get('page', 1, type=int)
+    per_page = request.args.get('per_page', 200, type=int)
+    
+    total_items = len(temp_df)
+    total_pages = (total_items + per_page - 1) // per_page
+    
+    # Ensure page is within valid range
+    if page < 1: page = 1
+    if page > total_pages and total_pages > 0: page = total_pages
+    
+    start = (page - 1) * per_page
+    end = start + per_page
+    paginated_df = temp_df.iloc[start:end]
+
+    # Convert to dictionary list for template
+    for _, row in paginated_df.iterrows():
+        doc_dict = row.to_dict()
+        # Clean NaNs for JSON serialization
+        for k, v in doc_dict.items():
+            if pd.isna(v):
+                doc_dict[k] = None
             
-            doc_dict.update({
-                "institute_code": row.get('institute_code', 'N/A'),
-                "choice_code": row.get('choice_code', 'N/A'),
-                "name": row.get('institute_name', 'Unknown Institute'),
-                "specialty": row.get('course_name', 'BCA' if dept_filter == 'BCA' else 'MTECH' if dept_filter == 'MTECH' else 'MBA' if dept_filter == 'MBA' else 'MCA' if dept_filter == 'MCA' else 'N/A'),
-                "experience": row.get('percentile', 0),      # Cutoff
-                "gender": row.get('quota', location_filter if location_filter else 'N/A'), # Quota/Location
-                "qualification": row.get('category', 'N/A'),     # Category
-                "consultation_type": row.get('seat_type', 'N/A'),# Seat Type
-                "rank": row.get('rank', 'N/A'),
-                "stage": row.get('stage', 'N/A'),
-                "image": "", # Placeholder
-                "percentile": row.get('percentile', 'N/A'),
-                "merit_score": row.get('rank', 'N/A'),
-                "university": row.get('university', 'N/A'),
-                "status": row.get('status', 'N/A')
-            })
-            filtered_doctors.append(doc_dict)
+        doc_dict.update({
+            "institute_code": row.get('institute_code', 'N/A'),
+            "choice_code": row.get('choice_code', 'N/A'),
+            "name": row.get('institute_name', 'Unknown Institute'),
+            "specialty": row.get('course_name', 'BCA' if dept_filter == 'BCA' else 'MTECH' if dept_filter == 'MTECH' else 'MBA' if dept_filter == 'MBA' else 'MCA' if dept_filter == 'MCA' else 'N/A'),
+            "experience": row.get('percentile', 0),      # Cutoff
+            "gender": row.get('quota', location_filter if location_filter else 'N/A'), # Quota/Location
+            "qualification": row.get('category', 'N/A'),     # Category
+            "consultation_type": row.get('seat_type', 'N/A'),# Seat Type
+            "rank": row.get('rank', 'N/A'),
+            "stage": row.get('stage', 'N/A'),
+            "image": "", # Placeholder
+            "percentile": row.get('percentile', 'N/A'),
+            "merit_score": row.get('rank', 'N/A'),
+            "university": row.get('university', 'N/A'),
+            "status": row.get('status', 'N/A')
+        })
+        filtered_doctors.append(doc_dict)
 
     # Render specific template for MCA/MBA AI/MH, otherwise standard template
     if dept_filter == 'MCA':
@@ -398,6 +442,8 @@ def colleges():
             template_name = 'bca_ai.html'
         else:
             template_name = 'bca_mh.html'
+    elif dept_filter == 'B.Tech':
+        template_name = 'btech.html'
     else:
         template_name = 'doctors.html'
 
@@ -420,7 +466,13 @@ def colleges():
                            selected_seat_type=seat_type_filter,
                            selected_university=university_filter,
                            selected_area=area_filter,
-                           selected_round=request.args.get('round') if dept_filter == 'MTECH' else round_filter)
+                           selected_category1=category1_filter,
+                           selected_candidate_gender=candidate_gender_filter,
+                           genders=genders,
+                           selected_round=request.args.get('round') if dept_filter == 'MTECH' else round_filter,
+                           page=page,
+                           total_pages=total_pages,
+                           total_items=total_items)
 
 @app.route('/details')
 def details():
@@ -483,6 +535,9 @@ def details():
                         csv_filename = fname
                         break
         csv_path = os.path.join(search_dir, csv_filename)
+    elif dept_filter == 'B.Tech':
+        csv_filename = f'BTECH_OUTPUT_CAP{round_filter}.csv'
+        csv_path = os.path.join(base_dir, 'data', 'btech', csv_filename)
     else:
         csv_filename = f'polytechnic_cutoff_data_cap_{round_filter}.csv'
         csv_path = os.path.join(base_dir, 'data', 'polytechnic', csv_filename)

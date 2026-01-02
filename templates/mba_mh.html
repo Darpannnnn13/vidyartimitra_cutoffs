@@ -205,40 +205,19 @@
             document.getElementById('modalUniversity').innerText = doc.university;
             document.getElementById('modalCutoff').innerText = doc.percentile;
             
-            document.getElementById('modalAdditionalInfo').innerHTML = `
-                <div class="flex flex-col border-b border-gray-200 pb-2">
-                    <span class="text-gray-500 text-xs font-bold uppercase">Branch Code</span>
-                    <span class="font-bold text-gray-800 text-lg">${doc.choice_code || 'N/A'}</span>
-                </div>
-                <div class="flex flex-col border-b border-gray-200 pb-2">
-                    <span class="text-gray-500 text-xs font-bold uppercase">Institute Code</span>
-                    <span class="font-bold text-gray-800 text-lg">${doc.institute_code}</span>
-                </div>
-                <div class="flex flex-col border-b border-gray-200 pb-2">
-                    <span class="text-gray-500 text-xs font-bold uppercase">Merit Rank</span>
-                    <span class="font-bold text-gray-800 text-lg">${doc.merit_score}</span>
-                </div>
-                <div class="flex flex-col border-b border-gray-200 pb-2">
-                    <span class="text-gray-500 text-xs font-bold uppercase">Category</span>
-                    <span class="font-bold text-gray-800 text-lg">${doc.qualification}</span>
-                </div>
-                <div class="flex flex-col border-b border-gray-200 pb-2">
-                    <span class="text-gray-500 text-xs font-bold uppercase">Seat Type</span>
-                    <span class="font-bold text-gray-800 text-lg">${doc.consultation_type}</span>
-                </div>
-                <div class="flex flex-col border-b border-gray-200 pb-2">
-                    <span class="text-gray-500 text-xs font-bold uppercase">Quota</span>
-                    <span class="font-bold text-gray-800 text-lg">${doc.gender || 'N/A'}</span>
-                </div>
-                <div class="flex flex-col border-b border-gray-200 pb-2">
-                    <span class="text-gray-500 text-xs font-bold uppercase">Status</span>
-                    <span class="font-bold text-gray-800 text-lg">${doc.status || 'N/A'}</span>
-                </div>
-                <div class="flex flex-col border-b border-gray-200 pb-2">
-                    <span class="text-gray-500 text-xs font-bold uppercase">Branch</span>
-                    <span class="font-bold text-gray-800 text-lg">${doc.specialty || 'N/A'}</span>
-                </div>
-            `;
+            // Dynamic info from CSV
+            const excludeKeys = ['name', 'image', 'university', 'percentile', 'experience'];
+            let detailsHtml = '';
+            for (const [key, value] of Object.entries(doc)) {
+                if (!excludeKeys.includes(key) && value !== null && value !== 'N/A' && value !== '') {
+                    const label = key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                    detailsHtml += `<div class="flex flex-col border-b border-gray-200 pb-2">
+                        <span class="text-gray-500 text-xs font-bold uppercase">${label}</span>
+                        <span class="font-bold text-gray-800 text-lg">${value}</span>
+                    </div>`;
+                }
+            }
+            document.getElementById('modalAdditionalInfo').innerHTML = detailsHtml;
             document.body.classList.add('modal-open');
             document.getElementById('detailsModal').style.display = 'flex';
         }

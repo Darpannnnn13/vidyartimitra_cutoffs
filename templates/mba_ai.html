@@ -145,30 +145,19 @@
             document.getElementById('modalSpecialty').innerText = doc.specialty;
             document.getElementById('modalCutoff').innerText = `(${doc.experience})`;
             
-            document.getElementById('modalAdditionalInfo').innerHTML = `
-                <div class="flex flex-col border-b border-gray-200 pb-2">
-                    <span class="text-gray-500 text-xs font-bold uppercase">Course Code</span>
-                    <span class="font-bold text-gray-800 text-lg">${doc.choice_code}</span>
-                </div>
-                <div class="flex flex-col border-b border-gray-200 pb-2">
-                    <span class="text-gray-500 text-xs font-bold uppercase">Institute Code</span>
-                    <span class="font-bold text-gray-800 text-lg">${doc.institute_code}</span>
-                </div>
-                ${doc.rank !== 'N/A' ? `
-                <div class="flex flex-col border-b border-gray-200 pb-2">
-                    <span class="text-gray-500 text-xs font-bold uppercase">Merit Rank</span>
-                    <span class="font-bold text-gray-800 text-lg">${doc.rank}</span>
-                </div>
-                ` : ''}
-                <div class="flex flex-col border-b border-gray-200 pb-2">
-                    <span class="text-gray-500 text-xs font-bold uppercase">Type</span>
-                    <span class="font-bold text-gray-800 text-lg">${doc.consultation_type}</span>
-                </div>
-                <div class="flex flex-col border-b border-gray-200 pb-2">
-                    <span class="text-gray-500 text-xs font-bold uppercase">Status</span>
-                    <span class="font-bold text-gray-800 text-lg">${doc.status}</span>
-                </div>
-            `;
+            // Dynamic info from CSV
+            const excludeKeys = ['name', 'image', 'specialty', 'experience'];
+            let detailsHtml = '';
+            for (const [key, value] of Object.entries(doc)) {
+                if (!excludeKeys.includes(key) && value !== null && value !== 'N/A' && value !== '') {
+                    const label = key.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+                    detailsHtml += `<div class="flex flex-col border-b border-gray-200 pb-2">
+                        <span class="text-gray-500 text-xs font-bold uppercase">${label}</span>
+                        <span class="font-bold text-gray-800 text-lg">${value}</span>
+                    </div>`;
+                }
+            }
+            document.getElementById('modalAdditionalInfo').innerHTML = detailsHtml;
             document.getElementById('detailsModal').style.display = 'flex';
         }
         
