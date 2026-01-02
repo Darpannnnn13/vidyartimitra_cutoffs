@@ -6,34 +6,34 @@
     <title>{{ info.name }} - Cutoff Details</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         body { 
-            background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); 
-            color: #2d3748; 
+            background-color: #f8fafc; 
+            color: #334155; 
             min-height: 100vh; 
-            font-family: 'Segoe UI', sans-serif;
+            font-family: 'Poppins', sans-serif;
         }
         .glass-card { 
-            background: rgba(255, 255, 255, 0.85); 
-            backdrop-filter: blur(12px); 
-            border: 1px solid rgba(255, 255, 255, 0.9); 
+            background: #ffffff; 
+            border: 1px solid #e2e8f0; 
             border-radius: 24px; 
-            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
         }
     </style>
 </head>
 <body class="p-6">
     <div class="max-w-6xl mx-auto">
         <nav class="flex justify-between items-center mb-8">
-            <a href="/" class="text-2xl font-bold text-gray-800 hover:text-blue-600 transition">🎓 Cutoff Explorer</a>
-            <a href="javascript:history.back()" class="bg-white/50 hover:bg-white px-4 py-2 rounded-full transition shadow-sm font-bold">⬅️ Back</a>
+            <a href="/" class="text-2xl font-bold text-gray-800 hover:text-orange-600 transition">🎓 Cutoff Explorer</a>
+            <a href="javascript:history.back()" class="bg-white hover:bg-orange-50 text-orange-600 border border-orange-100 px-4 py-2 rounded-full transition shadow-sm font-bold">⬅️ Back</a>
         </nav>
 
         <div class="glass-card p-8 mb-8 animate__animated animate__fadeInDown">
-            <h1 class="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-500 mb-2">{{ info.name }}</h1>
+            <h1 class="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-amber-500 mb-2">{{ info.name }}</h1>
             <div class="flex flex-wrap gap-4 text-gray-600 font-medium">
-                <span class="bg-blue-50 text-blue-600 px-3 py-1 rounded-lg border border-blue-100">Code: {{ info.code }}</span>
-                <span class="bg-purple-50 text-purple-600 px-3 py-1 rounded-lg border border-purple-100">University: {{ info.university }}</span>
+                <span class="bg-orange-50 text-orange-600 px-3 py-1 rounded-lg border border-orange-100">Code: {{ info.code }}</span>
+                <span class="bg-amber-50 text-amber-600 px-3 py-1 rounded-lg border border-amber-100">University: {{ info.university }}</span>
             </div>
         </div>
 
@@ -52,12 +52,12 @@
                     </thead>
                     <tbody class="text-sm">
                         {% for row in cutoffs %}
-                        <tr class="hover:bg-blue-50/50 transition border-b border-gray-100 last:border-0">
+                        <tr class="hover:bg-orange-50/50 transition border-b border-gray-100 last:border-0">
                             <td class="p-4 font-semibold text-gray-800">{{ row.course_name }}</td>
                             <td class="p-4 text-gray-600">{{ row.category }}</td>
                             <td class="p-4 text-gray-600">{{ row.seat_type }}</td>
-                            <td class="p-4 font-extrabold text-green-600">{{ row.percentile }}</td>
-                            <td class="p-4 font-bold text-blue-600">{{ row.rank }}</td>
+                            <td class="p-4 font-extrabold text-orange-600">{{ row.percentile }}</td>
+                            <td class="p-4 font-bold text-amber-600">{{ row.rank }}</td>
                         </tr>
                         {% endfor %}
                     </tbody>

@@ -34,7 +34,6 @@ def split_merit_score(value):
 
     return pd.Series([merit_rank, score_percentile])
 
-<<<<<<< HEAD
 # Process CAP rounds 1 to 4
 for i in range(1, 5):
     input_filename = f"PG_MCA_Diploma_CAP{i}_AI_Cutoff_2025_26_colab_extracted.csv"
@@ -92,31 +91,27 @@ for i in range(1, 5):
             print(f"✅ Saved: {output_filename}")
         except PermissionError:
             print(f"❌ Permission denied: {output_filename} is open.")
-=======
-# Process all CSV files in the BCA AI directory
+
+# Process all CSV files in the BCA AI directory (Additional cleanup)
 if os.path.exists(DATA_DIR):
     for filename in os.listdir(DATA_DIR):
         # Match cap1.csv, cap2.csv etc. or other patterns
         if filename.endswith(".csv") and "cleaned" not in filename and "cap" in filename.lower():
             file_path = os.path.join(DATA_DIR, filename)
-            print(f"Processing: {filename}")
+            print(f"Processing BCA: {filename}")
             
             try:
                 df = pd.read_csv(file_path)
                 
                 if COMBINED_COL in df.columns:
-                    print(f"Found column '{COMBINED_COL}', splitting...")
                     df[["rank", "percentile"]] = df[COMBINED_COL].apply(split_merit_score)
                     
                     output_filename = filename.replace(".csv", "_cleaned.csv")
                     output_path = os.path.join(DATA_DIR, output_filename)
                     df.to_csv(output_path, index=False)
-                    print(f"✅ Saved: {output_filename}")
+                    print(f"✅ Saved BCA: {output_filename}")
                 else:
-                    print(f"⚠️ Column '{COMBINED_COL}' not found in {filename}")
+                    pass # Column not found, skip
             
             except Exception as e:
                 print(f"❌ Error processing {filename}: {e}")
-else:
-    print(f"Directory not found: {DATA_DIR}")
->>>>>>> daafe13 (bca)
