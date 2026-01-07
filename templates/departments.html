@@ -148,6 +148,15 @@
                 <h2 class="text-2xl font-bold text-gray-800">B.Tech</h2>
                 <p class="text-gray-500 mt-2">Bachelor of Technology</p>
             </div>
+
+            <!-- Pharma Card -->
+            <div onclick="openRoundModal('Pharma')" class="glass-card p-8 text-center group cursor-pointer">
+                <div class="mb-4 flex justify-center group-hover:scale-110 transition transform">
+                    <svg class="w-16 h-16 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-800">Pharma</h2>
+                <p class="text-gray-500 mt-2">B.Pharmacy / Pharm.D</p>
+            </div>
         </div>
     </div>
 
@@ -182,7 +191,7 @@
     <script>
         function openRoundModal(department, quota = '') {
             // Update links based on department and quota
-            const maxRounds = department === 'MBA' ? 3 : 4;
+            const maxRounds = (department === 'MBA' || department === 'Pharma') ? 3 : 4;
             const rounds = Array.from({length: maxRounds}, (_, i) => i + 1);
             rounds.forEach(r => {
                 const link = document.getElementById(`round${r}`);
@@ -194,7 +203,7 @@
             });
             
             // Hide round 4 for MBA
-            document.getElementById('round4').style.display = department === 'MBA' ? 'none' : 'block';
+            document.getElementById('round4').style.display = (department === 'MBA' || department === 'Pharma') ? 'none' : 'block';
             
             document.getElementById('roundModal').style.display = 'flex';
         }

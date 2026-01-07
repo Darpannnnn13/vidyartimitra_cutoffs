@@ -83,6 +83,9 @@ def colleges():
     elif dept_filter == 'B.Tech':
         csv_filename = f'BTECH_OUTPUT_CAP{round_filter}.csv'
         csv_path = os.path.join(base_dir, 'data', 'btech', csv_filename)
+    elif dept_filter == 'Pharma':
+        csv_filename = f'Pharma Cap{round_filter}.csv'
+        csv_path = os.path.join(base_dir, 'data', 'pharma', csv_filename)
     else:
         csv_filename = f'polytechnic_cutoff_data_cap_{round_filter}.csv'
         csv_path = os.path.join(base_dir, 'data', 'polytechnic', csv_filename)
@@ -199,8 +202,13 @@ def colleges():
             df['choice_code'] = df['branch_code']
 
         # Handle Category alias (e.g. category1)
-        if 'category' not in df.columns and 'category1' in df.columns:
+        if 'category1' in df.columns:
             df['category'] = df['category1']
+
+        # Handle Pharma specific columns
+        if dept_filter == 'Pharma':
+            if 'choice_code' in df.columns: df['institute_code'] = df['choice_code']
+            if 'seat_type' in df.columns: df['status'] = df['seat_type']
 
         # Ensure numeric columns are actually numbers
         if 'percentile' in df.columns:
@@ -283,7 +291,7 @@ def colleges():
     
     temp_df = pd.DataFrame()
 
-    if (specialty_filter or is_mca_or_mba) and not df.empty:
+    if (specialty_filter or is_mca_or_mba or dept_filter == 'Pharma') and not df.empty:
         # Filter by Branch (Exact Match)
         temp_df = df
         if specialty_filter:
@@ -296,6 +304,11 @@ def colleges():
         # Filter by Area
         if area_filter and 'area' in temp_df.columns:
             temp_df = temp_df[temp_df['area'] == area_filter]
+
+        # Filter by Institute Code (Pharma)
+        code_filter = request.args.get('code', '')
+        if code_filter and 'institute_code' in temp_df.columns:
+            temp_df = temp_df[temp_df['institute_code'].astype(str).str.contains(code_filter, na=False)]
 
         # Enforce Rank Range selection for MCA MH and MBA MH (Don't show colleges until Rank Range is selected)
         if ((dept_filter == 'MCA' and location_filter != 'AI') or (dept_filter == 'MBA' and location_filter != 'AI') or (dept_filter == 'BCA' and location_filter != 'AI')) and not (request.args.get('min_rank') and request.args.get('max_rank')):
@@ -444,6 +457,8 @@ def colleges():
             template_name = 'bca_mh.html'
     elif dept_filter == 'B.Tech':
         template_name = 'btech.html'
+    elif dept_filter == 'Pharma':
+        template_name = 'pharma.html'
     else:
         template_name = 'doctors.html'
 
@@ -471,6 +486,7 @@ def colleges():
                            genders=genders,
                            selected_round=request.args.get('round') if dept_filter == 'MTECH' else round_filter,
                            page=page,
+                           colleges=filtered_doctors if dept_filter == 'Pharma' else None,
                            total_pages=total_pages,
                            total_items=total_items)
 

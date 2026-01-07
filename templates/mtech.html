@@ -114,10 +114,10 @@
                 <!-- Category Filter -->
                 <div class="w-full md:w-48 flex-shrink-0">
                     <label class="block text-sm text-gray-600 font-bold mb-1">Category</label>
-                    <select name="category" class="w-full form-field form-select">
+                    <select name="category1" class="w-full form-field form-select">
                         <option value="">All Categories</option>
                         {% for c in categories %}
-                        <option value="{{ c }}" {% if c == selected_category %}selected{% endif %}>{{ c }}</option>
+                        <option value="{{ c }}" {% if c == selected_category1 %}selected{% endif %}>{{ c }}</option>
                         {% endfor %}
                     </select>
                 </div>
@@ -295,6 +295,7 @@
             document.getElementById('specialtyInput').value = specName;
             document.getElementById('specBtnText').innerText = specName || 'Select Course';
             document.getElementById('specModal').style.display = 'none';
+            document.getElementById('pageInput').value = 1;
             updateGrid(); // Trigger update
         }
 
