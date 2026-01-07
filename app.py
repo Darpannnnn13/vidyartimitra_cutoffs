@@ -86,6 +86,13 @@ def colleges():
     elif dept_filter == 'Pharma':
         csv_filename = f'Pharma Cap{round_filter}.csv'
         csv_path = os.path.join(base_dir, 'data', 'pharma', csv_filename)
+    elif dept_filter == 'FYJC':
+        if location_filter and location_filter.lower() == 'mumbai':
+            csv_filename = f'MUMBAI_CITY_SUBURBAN_CUTOFF_CAP{round_filter}.csv'
+            csv_path = os.path.join(base_dir, 'data', 'FYJC_Cutoff', 'mumbai', csv_filename)
+        else:
+            csv_filename = f'PUNE_CUTOFF_CUTOFF_CAP{round_filter}.csv'
+            csv_path = os.path.join(base_dir, 'data', 'FYJC_Cutoff', 'pune', csv_filename)
     else:
         csv_filename = f'polytechnic_cutoff_data_cap_{round_filter}.csv'
         csv_path = os.path.join(base_dir, 'data', 'polytechnic', csv_filename)
@@ -101,6 +108,10 @@ def colleges():
     quotas = []
     areas = []
     genders = []
+    mediums = []
+    reservations = []
+    castes = []
+    college_types = []
     
     if os.path.exists(csv_path):
         try:
@@ -210,6 +221,21 @@ def colleges():
             if 'choice_code' in df.columns: df['institute_code'] = df['choice_code']
             if 'seat_type' in df.columns: df['status'] = df['seat_type']
 
+        # Handle FYJC specific columns
+        if dept_filter == 'FYJC':
+            if 'junior_college_name' in df.columns: df['institute_name'] = df['junior_college_name']
+            if 'stream' in df.columns: df['course_name'] = df['stream']
+            if 'min_marks' in df.columns: df['percentile'] = df['min_marks']
+            if 'marks' in df.columns: df['percentile'] = df['marks']
+            if 'medium' in df.columns:
+                mediums = sorted(df['medium'].dropna().unique().tolist())
+            if 'reservation' in df.columns:
+                reservations = sorted(df['reservation'].dropna().unique().tolist())
+            if 'caste' in df.columns:
+                castes = sorted(df['caste'].dropna().unique().tolist())
+            if 'college_type' in df.columns:
+                college_types = sorted(df['college_type'].dropna().unique().tolist())
+
         # Ensure numeric columns are actually numbers
         if 'percentile' in df.columns:
             df['percentile'] = pd.to_numeric(df['percentile'], errors='coerce')
@@ -285,13 +311,17 @@ def colleges():
     seat_type_filter = request.args.get('seat_type', '')
     university_filter = request.args.get('university', '')
     area_filter = request.args.get('area', '')
+    medium_filter = request.args.get('medium', '')
+    reservation_filter = request.args.get('reservation', '')
+    caste_filter = request.args.get('caste', '')
+    college_type_filter = request.args.get('college_type', '')
 
     # Determine if we should load data (MCA and MBA allow loading without specialty)
     is_mca_or_mba = (dept_filter in ['MCA', 'MBA', 'BCA', 'B.Tech'])
     
     temp_df = pd.DataFrame()
 
-    if (specialty_filter or is_mca_or_mba or dept_filter == 'Pharma') and not df.empty:
+    if (specialty_filter or is_mca_or_mba or dept_filter == 'Pharma' or dept_filter == 'FYJC') and not df.empty:
         # Filter by Branch (Exact Match)
         temp_df = df
         if specialty_filter:
@@ -381,6 +411,19 @@ def colleges():
         if university_filter and 'university' in temp_df.columns:
             temp_df = temp_df[temp_df['university'] == university_filter]
         
+        # Filter by Medium (FYJC)
+        if medium_filter and 'medium' in temp_df.columns:
+            temp_df = temp_df[temp_df['medium'] == medium_filter]
+        # Filter by Reservation (FYJC)
+        if reservation_filter and 'reservation' in temp_df.columns:
+            temp_df = temp_df[temp_df['reservation'] == reservation_filter]
+        # Filter by Caste (FYJC)
+        if caste_filter and 'caste' in temp_df.columns:
+            temp_df = temp_df[temp_df['caste'] == caste_filter]
+        # Filter by College Type (FYJC)
+        if college_type_filter and 'college_type' in temp_df.columns:
+            temp_df = temp_df[temp_df['college_type'] == college_type_filter]
+
         # Sort by percentile descending
         if 'percentile' in temp_df.columns:
             temp_df = temp_df.sort_values(by='percentile', ascending=False)
@@ -459,6 +502,8 @@ def colleges():
         template_name = 'btech.html'
     elif dept_filter == 'Pharma':
         template_name = 'pharma.html'
+    elif dept_filter == 'FYJC':
+        template_name = 'fyjc.html'
     else:
         template_name = 'doctors.html'
 
@@ -484,9 +529,17 @@ def colleges():
                            selected_category1=category1_filter,
                            selected_candidate_gender=candidate_gender_filter,
                            genders=genders,
+                           mediums=mediums,
+                           reservations=reservations,
+                           castes=castes,
+                           college_types=college_types,
+                           selected_medium=medium_filter,
+                           selected_reservation=reservation_filter,
+                           selected_caste=caste_filter,
+                           selected_college_type=college_type_filter,
                            selected_round=request.args.get('round') if dept_filter == 'MTECH' else round_filter,
                            page=page,
-                           colleges=filtered_doctors if dept_filter == 'Pharma' else None,
+                           colleges=filtered_doctors if dept_filter in ['Pharma', 'FYJC'] else None,
                            total_pages=total_pages,
                            total_items=total_items)
 

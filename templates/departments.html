@@ -157,6 +157,27 @@
                 <h2 class="text-2xl font-bold text-gray-800">Pharma</h2>
                 <p class="text-gray-500 mt-2">B.Pharmacy / Pharm.D</p>
             </div>
+
+            <!-- FYJC Card with Split Hover Effect -->
+            <div class="glass-card p-0 relative overflow-hidden group h-full min-h-[250px] flex flex-col justify-center items-center cursor-default">
+                <!-- Default View -->
+                <div class="absolute inset-0 flex flex-col items-center justify-center p-8 transition-all duration-300 group-hover:opacity-0 group-hover:scale-90">
+                    <div class="mb-4 text-orange-500">
+                        <svg class="w-16 h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                    </div>
+                    <h2 class="text-2xl font-bold text-gray-800">FYJC</h2>
+                    <p class="text-gray-500 mt-2">11th Admission</p>
+                </div>
+                <!-- Hover View (Split Buttons) -->
+                <div class="absolute inset-0 flex opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10">
+                    <div onclick="openRoundModal('FYJC', 'Pune')" class="w-1/2 h-full bg-gradient-to-br from-orange-400 to-orange-500 flex flex-col items-center justify-center text-white cursor-pointer hover:from-orange-500 hover:to-orange-600 transition">
+                        <span class="text-2xl font-bold">Pune</span>
+                    </div>
+                    <div onclick="openRoundModal('FYJC', 'Mumbai')" class="w-1/2 h-full bg-gradient-to-br from-amber-400 to-amber-500 flex flex-col items-center justify-center text-white cursor-pointer hover:from-amber-500 hover:to-amber-600 transition">
+                        <span class="text-2xl font-bold">Mumbai</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -191,7 +212,7 @@
     <script>
         function openRoundModal(department, quota = '') {
             // Update links based on department and quota
-            const maxRounds = (department === 'MBA' || department === 'Pharma') ? 3 : 4;
+            const maxRounds = (department === 'MBA' || department === 'Pharma' || department === 'FYJC') ? 3 : 4;
             const rounds = Array.from({length: maxRounds}, (_, i) => i + 1);
             rounds.forEach(r => {
                 const link = document.getElementById(`round${r}`);
@@ -203,7 +224,7 @@
             });
             
             // Hide round 4 for MBA
-            document.getElementById('round4').style.display = (department === 'MBA' || department === 'Pharma') ? 'none' : 'block';
+            document.getElementById('round4').style.display = (department === 'MBA' || department === 'Pharma' || department === 'FYJC') ? 'none' : 'block';
             
             document.getElementById('roundModal').style.display = 'flex';
         }

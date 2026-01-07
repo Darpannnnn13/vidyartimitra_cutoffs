@@ -1,0 +1,517 @@
+Sr No,College,College Code,Course,Location,Category,Quota,AIR,cap_round,year
+1,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OPEN(W),1,CAP-2,2025-26
+2,Sir J.J. School,1101,Painting,Mumbai,OPEN,OPEN,2,CAP-2,2025-26
+3,Sir J.J. School,1101,Painting,Mumbai,OBC,OPEN,3,CAP-2,2025-26
+4,Sir J.J. School,1101,Painting,Mumbai,OBC,OPEN,4,CAP-2,2025-26
+5,Sir J.J. School,1105,Sculpture,Mumbai,OBC,OPEN,5,CAP-2,2025-26
+6,Sir J.J. Institute,1202,Applied Art,Mumbai,VJA,OPEN,6,CAP-2,2025-26
+7,Sir J.J. School,1101,Painting,Mumbai,OBC,OPEN,7,CAP-2,2025-26
+8,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OPEN(W),8,CAP-2,2025-26
+9,Sir J.J. Institute,1202,Applied Art,Mumbai,SC,OPEN(W),9,CAP-2,2025-26
+10,Sir J.J. School,1101,Painting,Mumbai,OBC,OPEN,10,CAP-2,2025-26
+11,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OPEN(W),11,CAP-2,2025-26
+12,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OPEN,12,CAP-2,2025-26
+13,Sir J.J. School,1101,Painting,Mumbai,OBC,OPEN,13,CAP-2,2025-26
+14,Sir J.J. School,1101,Painting,Mumbai,OPEN,OPEN(W),14,CAP-2,2025-26
+15,Sir J.J. School,1101,Painting,Mumbai,OBC,OPEN,15,CAP-2,2025-26
+16,Sir J.J. School,1101,Painting,Mumbai,ST,ST,16,CAP-2,2025-26
+17,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OPEN,17,CAP-2,2025-26
+18,Sir J.J. School,1101,Painting,Mumbai,OBC,OPEN(W),18,CAP-2,2025-26
+19,Sir J.J. School,1103,Textile Design,Mumbai,OPEN,OPEN,19,CAP-2,2025-26
+20,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OPEN,20,CAP-2,2025-26
+21,Sir J.J. Institute,1202,Applied Art,Mumbai,OPEN,OPEN(W),21,CAP-2,2025-26
+22,Sir J.J. Institute,1202,Applied Art,Mumbai,NTC,OPEN(W),22,CAP-2,2025-26
+23,Sir J.J. Institute,1202,Applied Art,Mumbai,OPEN,OPEN,23,CAP-2,2025-26
+24,Sir J.J. School,1105,Sculpture,Mumbai,NTB,NTB,24,CAP-2,2025-26
+25,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OPEN,25,CAP-2,2025-26
+26,Sir J.J. Institute,1202,Applied Art,Mumbai,SEBC,OPEN,26,CAP-2,2025-26
+27,Sir J.J. School,1104,Int. Decoration,Mumbai,SC,OPEN,28,CAP-2,2025-26
+28,Sir J.J. Institute,1202,Applied Art,Mumbai,EWS,EWS,29,CAP-2,2025-26
+29,Sir J.J. School,1101,Painting,Mumbai,SEBC,SEBC,30,CAP-2,2025-26
+30,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OPEN,31,CAP-2,2025-26
+31,Sir J.J. Institute,1202,Applied Art,Mumbai,OPEN,OPEN(W),32,CAP-2,2025-26
+32,Sir J.J. Institute,1202,Applied Art,Mumbai,OPEN,OPEN,33,CAP-2,2025-26
+33,Sir J.J. School,1101,Painting,Mumbai,SC,SC,34,CAP-2,2025-26
+34,Sir J.J. Institute,1202,Applied Art,Mumbai,SBC,OPEN,35,CAP-2,2025-26
+35,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OPEN,36,CAP-2,2025-26
+36,Sir J.J. School,1101,Painting,Mumbai,OBC,OBC,37,CAP-2,2025-26
+37,Sir J.J. Institute,1202,Applied Art,Mumbai,OPEN,OPEN,38,CAP-2,2025-26
+38,Sir J.J. School,1101,Painting,Mumbai,OBC,OBC,39,CAP-2,2025-26
+39,Sir J.J. Institute,1202,Applied Art,Mumbai,OPEN,OPEN(W),41,CAP-2,2025-26
+40,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OPEN(W),42,CAP-2,2025-26
+41,Sir J.J. Institute,1202,Applied Art,Mumbai,OPEN,OPEN,43,CAP-2,2025-26
+42,Sir J.J. Institute,1202,Applied Art,Mumbai,SC,OPEN,44,CAP-2,2025-26
+43,Sir J.J. Institute,1202,Applied Art,Mumbai,NTB,OPEN,45,CAP-2,2025-26
+44,Sir J.J. School,1101,Painting,Mumbai,OBC,OBC,48,CAP-2,2025-26
+45,Sir J.J. School,1101,Painting,Mumbai,OBC,OBC,49,CAP-2,2025-26
+46,Sir J.J. Institute,1202,Applied Art,Mumbai,OPEN,OPEN(W),50,CAP-2,2025-26
+47,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OPEN,51,CAP-2,2025-26
+48,Sir J.J. Institute,1202,Applied Art,Mumbai,OPEN,OPEN,52,CAP-2,2025-26
+49,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OPEN,54,CAP-2,2025-26
+50,Sir J.J. Institute,1202,Applied Art,Mumbai,SBC,OPEN,55,CAP-2,2025-26
+51,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OPEN,56,CAP-2,2025-26
+52,Govt. Col of Art & Design,2201,Painting,Chatrapati Samb,SC,OPEN(W),57,CAP-2,2025-26
+53,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OPEN,59,CAP-2,2025-26
+54,Sir J.J. Institute,1202,Applied Art,Mumbai,OPEN,OPEN,60,CAP-2,2025-26
+55,Sir J.J. Institute,1202,Applied Art,Mumbai,OPEN,OPEN,61,CAP-2,2025-26
+56,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OPEN,62,CAP-2,2025-26
+57,Sir J.J. School,1104,Int. Decoration,Mumbai,OPEN,OPEN(W),63,CAP-2,2025-26
+58,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,65,CAP-2,2025-26
+59,Rachana Sansad,1302,Applied Art,Mumbai,SC,OPEN,66,CAP-2,2025-26
+60,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,67,CAP-2,2025-26
+61,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,68,CAP-2,2025-26
+62,Sir J.J. Institute,1202,Applied Art,Mumbai,SEBC,SEBC,69,CAP-2,2025-26
+63,Sir J.J. School,1103,Textile Design,Mumbai,OBC,OPEN,70,CAP-2,2025-26
+64,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,71,CAP-2,2025-26
+65,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,75,CAP-2,2025-26
+66,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,76,CAP-2,2025-26
+67,Sir J.J. Institute,1202,Applied Art,Mumbai,SC,SC,77,CAP-2,2025-26
+68,Sir J.J. Institute,1202,Applied Art,Mumbai,NTB,NTB,78,CAP-2,2025-26
+69,Sir J.J. Institute,1202,Applied Art,Mumbai,VJA,VJA,79,CAP-2,2025-26
+70,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,82,CAP-2,2025-26
+71,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,83,CAP-2,2025-26
+72,Sir J.J. School,1107,Ceramics,Mumbai,NTB,OPEN,84,CAP-2,2025-26
+73,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,86,CAP-2,2025-26
+74,Sir J.J. Institute,1202,Applied Art,Mumbai,SEBC,SEBC,88,CAP-2,2025-26
+75,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,89,CAP-2,2025-26
+76,Sir J.J. School,1101,Painting,Mumbai,SC,SC,90,CAP-2,2025-26
+77,Viva Institute,1702,Applied Art,Virar,OPEN,OPEN,91,CAP-2,2025-26
+78,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,92,CAP-2,2025-26
+79,Sir J.J. Institute,1202,Applied Art,Mumbai,EWS,EWS,93,CAP-2,2025-26
+80,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,94,CAP-2,2025-26
+81,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,95,CAP-2,2025-26
+82,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,96,CAP-2,2025-26
+83,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,97,CAP-2,2025-26
+84,Sir J.J. Institute,1202,Applied Art,Mumbai,EWS,EWS,99,CAP-2,2025-26
+85,Govt. Col of Art & Design,2201,Painting,Chatrapati Samb,OBC,OPEN,102,CAP-2,2025-26
+86,Sir J.J. Institute,1202,Applied Art,Mumbai,SC,SC,105,CAP-2,2025-26
+87,Sir J.J. Institute,1202,Applied Art,Mumbai,SEBC,SEBC,106,CAP-2,2025-26
+88,Sir J.J. Institute,1202,Applied Art,Mumbai,OBC,OBC,107,CAP-2,2025-26
+89,Sir J.J. School,1103,Textile Design,Mumbai,OPEN,OPEN(W),108,CAP-2,2025-26
+90,Sir J.J. Institute,1202,Applied Art,Mumbai,SC,SC,110,CAP-2,2025-26
+91,Sir J.J. School,1107,Ceramics,Mumbai,SC,SC,112,CAP-2,2025-26
+92,Govt. Col of Art & Design,2102,Applied Art,Nagpur,SBC,OPEN,114,CAP-2,2025-26
+93,Sir J.J. School,1104,Int. Decoration,Mumbai,OPEN,OPEN,115,CAP-2,2025-26
+94,Govt. Col of Art & Design,2101,Painting,Nagpur,SBC,OPEN(W),116,CAP-2,2025-26
+95,Rachana Sansad,1302,Applied Art,Mumbai,SBC,OPEN(W),118,CAP-2,2025-26
+96,Sir J.J. Institute,1202,Applied Art,Mumbai,EWS,EWS,119,CAP-2,2025-26
+97,Sir J.J. Institute,1202,Applied Art,Mumbai,ST,ST,123,CAP-2,2025-26
+98,Sir J.J. School,1104,Int. Decoration,Mumbai,OBC,OPEN,124,CAP-2,2025-26
+99,Sir J.J. School,1101,Painting,Mumbai,SC,SC,125,CAP-2,2025-26
+100,Govt. Col of Art & Design,2102,Applied Art,Nagpur,OBC,OPEN,126,CAP-2,2025-26
+101,Sir J.J. Institute,1202,Applied Art,Mumbai,EWS,EWS,127,CAP-2,2025-26
+102,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,OBC,OPEN(W),129,CAP-2,2025-26
+103,Sir J.J. School,1104,Int. Decoration,Mumbai,OPEN,OPEN,131,CAP-2,2025-26
+104,Bharati Vidyapeeth Col,1601,Painting,Pune,OBC,OPEN,132,CAP-2,2025-26
+105,Sir J.J. School,1104,Int. Decoration,Mumbai,OBC,OBC,133,CAP-2,2025-26
+106,Sir J.J. School,1103,Textile Design,Mumbai,OPEN,OPEN,134,CAP-2,2025-26
+107,Sir J.J. Institute,1202,Applied Art,Mumbai,SC,SC,135,CAP-2,2025-26
+108,Rachana Sansad,1302,Applied Art,Mumbai,OPEN,OPEN(W),136,CAP-2,2025-26
+109,Rachana Sansad,1302,Applied Art,Mumbai,OPEN,OPEN(W),137,CAP-2,2025-26
+110,Sir J.J. Institute,1202,Applied Art,Mumbai,EWS,EWS,138,CAP-2,2025-26
+111,Sir J.J. School,1103,Textile Design,Mumbai,OPEN,OPEN(W),139,CAP-2,2025-26
+112,Sir J.J. Institute,1202,Applied Art,Mumbai,NTB,NTB,140,CAP-2,2025-26
+113,Sir J.J. School,1104,Int. Decoration,Mumbai,OBC,OBC,141,CAP-2,2025-26
+114,Sir J.J. Institute,1202,Applied Art,Mumbai,SC,SC,142,CAP-2,2025-26
+115,Rachana Sansad,1302,Applied Art,Mumbai,OPEN,OPEN(W),143,CAP-2,2025-26
+116,Sir J.J. School,1104,Int. Decoration,Mumbai,SC,SC,144,CAP-2,2025-26
+117,Aditya College of Archite,2002,Applied Art,"Borivali, Mumba",OPEN,OPEN(W),146,CAP-2,2025-26
+118,Sir J.J. School,1106,Metal Work,Mumbai,OPEN,OPEN,147,CAP-2,2025-26
+119,Rachana Sansad,1302,Applied Art,Mumbai,OPEN,OPEN,149,CAP-2,2025-26
+120,Sir J.J. School,1103,Textile Design,Mumbai,EWS,EWS,150,CAP-2,2025-26
+121,Govt. Col of Art & Design,2102,Applied Art,Nagpur,OPEN,OPEN,151,CAP-2,2025-26
+122,Sir J.J. Institute,1202,Applied Art,Mumbai,SC,SC,152,CAP-2,2025-26
+123,Sir J.J. School,1103,Textile Design,Mumbai,OBC,OBC,153,CAP-2,2025-26
+124,Sir J.J. Institute,1202,Applied Art,Mumbai,SC,SC,155,CAP-2,2025-26
+125,Sir J.J. School,1106,Metal Work,Mumbai,OBC,OBC,156,CAP-2,2025-26
+126,Sir J.J. School,1103,Textile Design,Mumbai,OBC,OBC,157,CAP-2,2025-26
+127,Sir J.J. Institute,1202,Applied Art,Mumbai,SC,SC,158,CAP-2,2025-26
+128,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,OBC,OPEN(W),159,CAP-2,2025-26
+129,Govt. Col of Art & Design,2102,Applied Art,Nagpur,OBC,OPEN,160,CAP-2,2025-26
+130,Sir J.J. School,1106,Metal Work,Mumbai,OPEN,OPEN(W),161,CAP-2,2025-26
+131,Sir J.J. School,1107,Ceramics,Mumbai,OPEN,OPEN(W),163,CAP-2,2025-26
+132,Govt. Col of Art & Design,2102,Applied Art,Nagpur,OBC,OPEN,164,CAP-2,2025-26
+133,Sir J.J. Institute,1202,Applied Art,Mumbai,SC,SC,166,CAP-2,2025-26
+134,Rachana Sansad,1302,Applied Art,Mumbai,OPEN,OPEN,167,CAP-2,2025-26
+135,Rachana Sansad,1302,Applied Art,Mumbai,OPEN,OPEN,168,CAP-2,2025-26
+136,Sir J.J. School,1103,Textile Design,Mumbai,EWS,EWS,169,CAP-2,2025-26
+137,Sir J.J. Institute,1202,Applied Art,Mumbai,SEBC,SEBC,170,CAP-2,2025-26
+138,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OPEN,OPEN,172,CAP-2,2025-26
+139,Sir J.J. Institute,1202,Applied Art,Mumbai,EWS,EWS,173,CAP-2,2025-26
+140,Sir J.J. Institute,1202,Applied Art,Mumbai,SEBC,SEBC,174,CAP-2,2025-26
+141,Govt. Col of Art & Design,2102,Applied Art,Nagpur,OBC,OPEN(W),175,CAP-2,2025-26
+142,Govt. Col of Art & Design,2101,Painting,Nagpur,OBC,OPEN(W),177,CAP-2,2025-26
+143,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,OBC,OPEN,178,CAP-2,2025-26
+144,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OBC,OBC,181,CAP-2,2025-26
+145,Sir J.J. Institute,1202,Applied Art,Mumbai,EWS,EWS,182,CAP-2,2025-26
+146,Sir J.J. School,1105,Sculpture,Mumbai,OBC,OBC,183,CAP-2,2025-26
+147,Sir J.J. Institute,1202,Applied Art,Mumbai,EWS,EWS,185,CAP-2,2025-26
+148,Rachana Sansad,1302,Applied Art,Mumbai,OBC,OPEN,186,CAP-2,2025-26
+149,Govt. Col of Art & Design,2102,Applied Art,Nagpur,SBC,OPEN(W),189,CAP-2,2025-26
+150,Govt. Col of Art & Design,2102,Applied Art,Nagpur,OPEN,OPEN(W),190,CAP-2,2025-26
+151,Sir J.J. School,1107,Ceramics,Mumbai,OBC,OBC,191,CAP-2,2025-26
+152,Govt. Col of Art & Design,2101,Painting,Nagpur,OBC,OBC,193,CAP-2,2025-26
+153,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OPEN,OPEN(W),194,CAP-2,2025-26
+154,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OBC,OPEN,195,CAP-2,2025-26
+155,Govt. Col of Art & Design,2102,Applied Art,Nagpur,OBC,OPEN,198,CAP-2,2025-26
+156,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,SBC,OPEN,199,CAP-2,2025-26
+157,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,OBC,OPEN(W),201,CAP-2,2025-26
+158,Rachana Sansad,1302,Applied Art,Mumbai,OBC,OBC,203,CAP-2,2025-26
+159,Rachana Sansad,1302,Applied Art,Mumbai,OBC,OPEN,204,CAP-2,2025-26
+160,Govt. Col of Art & Design,2102,Applied Art,Nagpur,OPEN,OPEN,205,CAP-2,2025-26
+161,Rachana Sansad,1302,Applied Art,Mumbai,OPEN,OPEN,207,CAP-2,2025-26
+162,Govt. Col of Art & Design,2102,Applied Art,Nagpur,OBC,OPEN,209,CAP-2,2025-26
+163,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OPEN,OPEN(W),210,CAP-2,2025-26
+164,Sir J.J. Institute,1202,Applied Art,Mumbai,EWS,EWS,211,CAP-2,2025-26
+165,Govt. Col of Art & Design,2102,Applied Art,Nagpur,OBC,OBC,217,CAP-2,2025-26
+166,Sir J.J. School,1101,Painting,Mumbai,EWS,EWS,218,CAP-2,2025-26
+167,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,SBC,OPEN,219,CAP-2,2025-26
+168,Govt. Col of Art & Design,2101,Painting,Nagpur,EWS,EWS,220,CAP-2,2025-26
+169,Sir J.J. School,1104,Int. Decoration,Mumbai,SC,SC,223,CAP-2,2025-26
+170,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OPEN,OPEN(W),224,CAP-2,2025-26
+171,Sir J.J. Institute,1202,Applied Art,Mumbai,SC,SC,225,CAP-2,2025-26
+172,Rachana Sansad,1302,Applied Art,Mumbai,OPEN,OPEN,227,CAP-2,2025-26
+173,Govt. Col of Art & Design,2102,Applied Art,Nagpur,OBC,OBC,228,CAP-2,2025-26
+174,Govt. Col of Art & Design,2203,Textile Design,Chatrapati Samb,OBC,OPEN,229,CAP-2,2025-26
+175,Govt. Col of Art & Design,2102,Applied Art,Nagpur,SC,SC,230,CAP-2,2025-26
+176,Rachana Sansad,1302,Applied Art,Mumbai,OBC,OPEN,231,CAP-2,2025-26
+177,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,SBC,OPEN,233,CAP-2,2025-26
+178,Rachana Sansad,1302,Applied Art,Mumbai,OBC,OPEN,234,CAP-2,2025-26
+179,Sir J.J. Institute,1202,Applied Art,Mumbai,ST,ST,235,CAP-2,2025-26
+180,Govt. Col of Art & Design,2101,Painting,Nagpur,OBC,OPEN,237,CAP-2,2025-26
+181,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OPEN,OPEN(W),239,CAP-2,2025-26
+182,Rachana Sansad,1302,Applied Art,Mumbai,OPEN,OPEN,240,CAP-2,2025-26
+183,Govt. Col of Art & Design,2102,Applied Art,Nagpur,OBC,OBC,244,CAP-2,2025-26
+184,Rachana Sansad,1302,Applied Art,Mumbai,SC,SC,246,CAP-2,2025-26
+185,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,OBC,OPEN(W),247,CAP-2,2025-26
+186,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,OBC,OPEN,248,CAP-2,2025-26
+187,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,SBC,OPEN,249,CAP-2,2025-26
+188,Sir J.J. School,1103,Textile Design,Mumbai,NTB,NTB,250,CAP-2,2025-26
+189,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,OBC,OPEN,251,CAP-2,2025-26
+190,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,OPEN,OPEN,252,CAP-2,2025-26
+191,Sir J.J. Institute,1202,Applied Art,Mumbai,SC,SC,253,CAP-2,2025-26
+192,Rachana Sansad,1302,Applied Art,Mumbai,SC,SC,254,CAP-2,2025-26
+193,Sir J.J. Institute,1202,Applied Art,Mumbai,VJA,VJA,258,CAP-2,2025-26
+194,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,OPEN,OPEN,263,CAP-2,2025-26
+195,Sir J.J. Institute,1202,Applied Art,Mumbai,SEBC,SEBC,264,CAP-2,2025-26
+196,Sir J.J. Institute,1202,Applied Art,Mumbai,SEBC,SEBC,265,CAP-2,2025-26
+197,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,OBC,OPEN,266,CAP-2,2025-26
+198,Sir J.J. School,1101,Painting,Mumbai,EWS,EWS,267,CAP-2,2025-26
+199,Govt. Col of Art & Design,2102,Applied Art,Nagpur,OBC,OBC,268,CAP-2,2025-26
+200,Govt. Col of Art & Design,2201,Painting,Chatrapati Samb,OPEN,OPEN,270,CAP-2,2025-26
+201,Rachana Sansad,1302,Applied Art,Mumbai,OBC,OBC,271,CAP-2,2025-26
+202,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,OBC,OBC,272,CAP-2,2025-26
+203,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,OBC,OBC,278,CAP-2,2025-26
+204,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,OBC,OBC,279,CAP-2,2025-26
+205,Govt. Col of Art & Design,2203,Textile Design,Chatrapati Samb,OBC,OPEN,280,CAP-2,2025-26
+206,Govt. Col of Art & Design,2201,Painting,Chatrapati Samb,OPEN,OPEN,282,CAP-2,2025-26
+207,Rachana Sansad,1302,Applied Art,Mumbai,OBC,OBC,283,CAP-2,2025-26
+208,Sir J.J. Institute,1202,Applied Art,Mumbai,SEBC,SEBC,285,CAP-2,2025-26
+209,Sir J.J. School,1101,Painting,Mumbai,NTC,NTC,286,CAP-2,2025-26
+210,Govt. Col of Art & Design,2102,Applied Art,Nagpur,OBC,OBC,287,CAP-2,2025-26
+211,Govt. Col of Art & Design,2201,Painting,Chatrapati Samb,SC,SC,288,CAP-2,2025-26
+212,Aditya College of Archite,2002,Applied Art,"Borivali, Mumba",OPEN,OPEN(W),289,CAP-2,2025-26
+213,Sir J.J. School,1103,Textile Design,Mumbai,SC,SC,291,CAP-2,2025-26
+214,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OPEN,OPEN,292,CAP-2,2025-26
+215,Govt. Col of Art & Design,2101,Painting,Nagpur,SC,OPEN,299,CAP-2,2025-26
+216,Govt. Col of Art & Design,2102,Applied Art,Nagpur,NTB,NTB,300,CAP-2,2025-26
+217,Viva Institute,1702,Applied Art,Virar,OPEN,OPEN(W),301,CAP-2,2025-26
+218,Bharati Vidyapeeth Col,1602,Applied Art,Pune,SEBC,OPEN,303,CAP-2,2025-26
+219,Govt. Col of Art & Design,2101,Painting,Nagpur,OPEN,OPEN,304,CAP-2,2025-26
+220,Govt. Col of Art & Design,2203,Textile Design,Chatrapati Samb,ST,OPEN,306,CAP-2,2025-26
+221,Sir J.J. School,1103,Textile Design,Mumbai,SEBC,SEBC,307,CAP-2,2025-26
+222,Sir J.J. School,1101,Painting,Mumbai,EWS,EWS,313,CAP-2,2025-26
+223,Rachana Sansad,1302,Applied Art,Mumbai,OBC,OBC,314,CAP-2,2025-26
+224,Viva Institute,1702,Applied Art,Virar,OPEN,OPEN,317,CAP-2,2025-26
+225,Aditya College of Archite,2002,Applied Art,"Borivali, Mumba",OPEN,OPEN,318,CAP-2,2025-26
+226,Govt. Col of Art & Design,2201,Painting,Chatrapati Samb,EWS,EWS,319,CAP-2,2025-26
+227,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OBC,OPEN(W),320,CAP-2,2025-26
+228,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,OPEN,OPEN(W),321,CAP-2,2025-26
+229,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,OBC,OBC,323,CAP-2,2025-26
+230,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OPEN,OPEN,324,CAP-2,2025-26
+231,Govt. Col of Art & Design,2102,Applied Art,Nagpur,SC,SC,326,CAP-2,2025-26
+232,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,OBC,OBC,327,CAP-2,2025-26
+233,Govt. Col of Art & Design,2101,Painting,Nagpur,OBC,OPEN,332,CAP-2,2025-26
+234,Aditya College of Archite,2002,Applied Art,"Borivali, Mumba",OPEN,OPEN,333,CAP-2,2025-26
+235,Viva Institute,1702,Applied Art,Virar,OPEN,OPEN(W),334,CAP-2,2025-26
+236,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,NTB,NTB,335,CAP-2,2025-26
+237,Rachana Sansad,1302,Applied Art,Mumbai,EWS,EWS,336,CAP-2,2025-26
+238,Govt. Col of Art & Design,2101,Painting,Nagpur,OPEN,OPEN(W),338,CAP-2,2025-26
+239,Sir J.J. Institute,1202,Applied Art,Mumbai,NTC,NTC,340,CAP-2,2025-26
+240,Rachana Sansad,1302,Applied Art,Mumbai,NTB,NTB,341,CAP-2,2025-26
+241,Govt. Col of Art & Design,2203,Textile Design,Chatrapati Samb,OBC,OBC,342,CAP-2,2025-26
+242,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OPEN,OPEN(W),344,CAP-2,2025-26
+243,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OPEN,OPEN(W),345,CAP-2,2025-26
+244,Govt. Col of Art & Design,2201,Painting,Chatrapati Samb,NTB,OPEN(W),348,CAP-2,2025-26
+245,Bharati Vidyapeeth Col,1601,Painting,Pune,OPEN,OPEN(W),352,CAP-2,2025-26
+246,Sir J.J. School,1101,Painting,Mumbai,SEBC,SEBC,353,CAP-2,2025-26
+247,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OBC,OPEN(W),356,CAP-2,2025-26
+248,Bharati Vidyapeeth Col,1602,Applied Art,Pune,NTB,OPEN,357,CAP-2,2025-26
+249,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OPEN,OPEN,359,CAP-2,2025-26
+250,Govt. Col of Art & Design,2102,Applied Art,Nagpur,SC,SC,361,CAP-2,2025-26
+251,Sir J.J. School,1101,Painting,Mumbai,ST,ST,362,CAP-2,2025-26
+252,Bharati Vidyapeeth Col,1602,Applied Art,Pune,EWS,EWS,364,CAP-2,2025-26
+253,Govt. Col of Art & Design,2101,Painting,Nagpur,SC,OPEN,365,CAP-2,2025-26
+254,Rachana Sansad,1302,Applied Art,Mumbai,OBC,OBC,367,CAP-2,2025-26
+255,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OPEN,OPEN,368,CAP-2,2025-26
+256,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OPEN,OPEN,369,CAP-2,2025-26
+257,Sir J.J. School,1104,Int. Decoration,Mumbai,SEBC,SEBC,370,CAP-2,2025-26
+258,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,OPEN,OPEN(W),371,CAP-2,2025-26
+259,Sir J.J. Institute,1202,Applied Art,Mumbai,VJA,VJA,372,CAP-2,2025-26
+260,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,OBC,OBC,373,CAP-2,2025-26
+261,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OBC,OBC,374,CAP-2,2025-26
+262,Rachana Sansad,1302,Applied Art,Mumbai,OBC,OBC,377,CAP-2,2025-26
+263,Bharati Vidyapeeth Col,1602,Applied Art,Pune,EWS,EWS,379,CAP-2,2025-26
+264,Aditya College of Archite,2002,Applied Art,"Borivali, Mumba",OPEN,OPEN,380,CAP-2,2025-26
+265,Sanjeevan E&T Institute,1902,Applied Art,Kolhapur,OPEN,OPEN,381,CAP-2,2025-26
+266,Govt. Col of Art & Design,2101,Painting,Nagpur,SEBC,SEBC,382,CAP-2,2025-26
+267,Govt. Col of Art & Design,2203,Textile Design,Chatrapati Samb,VJA,VJA,383,CAP-2,2025-26
+268,Rachana Sansad,1302,Applied Art,Mumbai,OBC,OBC,385,CAP-2,2025-26
+269,Govt. Col of Art & Design,2101,Painting,Nagpur,OBC,OPEN,387,CAP-2,2025-26
+270,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OPEN,OPEN,389,CAP-2,2025-26
+271,Sir J.J. Institute,1202,Applied Art,Mumbai,ST,ST,390,CAP-2,2025-26
+272,Aditya College of Archite,2002,Applied Art,"Borivali, Mumba",OPEN,OPEN,391,CAP-2,2025-26
+273,Rachana Sansad,1302,Applied Art,Mumbai,SC,SC,392,CAP-2,2025-26
+274,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,SC,SC,393,CAP-2,2025-26
+275,Viva Institute,1702,Applied Art,Virar,OBC,OPEN(W),394,CAP-2,2025-26
+276,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OPEN,OPEN,395,CAP-2,2025-26
+277,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OBC,OPEN(W),397,CAP-2,2025-26
+278,Viva Institute,1702,Applied Art,Virar,OBC,OPEN,400,CAP-2,2025-26
+279,Govt. Col of Art & Design,2101,Painting,Nagpur,SC,SC,401,CAP-2,2025-26
+280,Sir J.J. School,1101,Painting,Mumbai,VJA,VJA,405,CAP-2,2025-26
+281,Viva Institute,1702,Applied Art,Virar,OBC,OBC,407,CAP-2,2025-26
+282,Bharati Vidyapeeth Col,1601,Painting,Pune,OPEN,OPEN(W),411,CAP-2,2025-26
+283,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OBC,OPEN(W),412,CAP-2,2025-26
+284,Sir J.J. School,1105,Sculpture,Mumbai,SEBC,SEBC,413,CAP-2,2025-26
+285,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OPEN,OPEN,414,CAP-2,2025-26
+286,Aditya College of Archite,2002,Applied Art,"Borivali, Mumba",SBC,OPEN,416,CAP-2,2025-26
+287,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OBC,OPEN,420,CAP-2,2025-26
+288,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OPEN,OPEN,424,CAP-2,2025-26
+289,Govt. Col of Art & Design,2101,Painting,Nagpur,OBC,OBC,425,CAP-2,2025-26
+290,Viva Institute,1702,Applied Art,Virar,SC,OPEN,426,CAP-2,2025-26
+291,Sir J.J. School,1105,Sculpture,Mumbai,ST,ST,428,CAP-2,2025-26
+292,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OPEN,OPEN,430,CAP-2,2025-26
+293,Govt. Col of Art & Design,2203,Textile Design,Chatrapati Samb,SBC,OPEN(W),431,CAP-2,2025-26
+294,Bharati Vidyapeeth Col,1602,Applied Art,Pune,SBC,OPEN,433,CAP-2,2025-26
+295,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OPEN,OPEN,435,CAP-2,2025-26
+296,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OBC,OPEN,436,CAP-2,2025-26
+297,Govt. Col of Art & Design,2101,Painting,Nagpur,OBC,OBC,437,CAP-2,2025-26
+298,Bharati Vidyapeeth Col,1602,Applied Art,Pune,NTB,OPEN,438,CAP-2,2025-26
+299,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OBC,OPEN,439,CAP-2,2025-26
+300,Bharati Vidyapeeth Col,1602,Applied Art,Pune,SC,SC,440,CAP-2,2025-26
+301,Sir J.J. Institute,1202,Applied Art,Mumbai,ST,ST,441,CAP-2,2025-26
+302,Govt. Col of Art & Design,2203,Textile Design,Chatrapati Samb,OBC,OBC,442,CAP-2,2025-26
+303,Rachana Sansad,1302,Applied Art,Mumbai,SC,SC,443,CAP-2,2025-26
+304,Viva Institute,1701,Painting,Virar,OPEN,OPEN,444,CAP-2,2025-26
+305,Govt. Col of Art & Design,2101,Painting,Nagpur,OBC,OBC,445,CAP-2,2025-26
+306,Bharati Vidyapeeth Col,1602,Applied Art,Pune,SC,SC,448,CAP-2,2025-26
+307,Rachana Sansad,1302,Applied Art,Mumbai,NTC,NTC,449,CAP-2,2025-26
+308,Viva Institute,1702,Applied Art,Virar,OBC,OPEN,451,CAP-2,2025-26
+309,Aditya College of Archite,2002,Applied Art,"Borivali, Mumba",OPEN,OPEN,452,CAP-2,2025-26
+310,Rachana Sansad,1302,Applied Art,Mumbai,NTC,NTC,453,CAP-2,2025-26
+311,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OBC,OBC,454,CAP-2,2025-26
+312,Govt. Col of Art & Design,2101,Painting,Nagpur,OBC,OBC,458,CAP-2,2025-26
+313,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OBC,OBC,461,CAP-2,2025-26
+314,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OBC,OBC,462,CAP-2,2025-26
+315,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OBC,OBC,463,CAP-2,2025-26
+316,Govt. Col of Art & Design,2102,Applied Art,Nagpur,SC,SC,464,CAP-2,2025-26
+317,Govt. Col of Art & Design,2102,Applied Art,Nagpur,EWS,EWS,465,CAP-2,2025-26
+318,Rachana Sansad,1302,Applied Art,Mumbai,SEBC,SEBC,466,CAP-2,2025-26
+319,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,SC,SC,471,CAP-2,2025-26
+320,KCE`S Moolji Jaitha Colle,2302,Applied Art,Jalgaon,SBC,OPEN(W),472,CAP-2,2025-26
+321,Viva Institute,1702,Applied Art,Virar,OBC,OPEN,477,CAP-2,2025-26
+322,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",SC,SC,479,CAP-2,2025-26
+323,Sanjeevan E&T Institute,1902,Applied Art,Kolhapur,OPEN,OPEN(W),480,CAP-2,2025-26
+324,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,OBC,OPEN,482,CAP-2,2025-26
+325,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,EWS,EWS,488,CAP-2,2025-26
+326,Viva Institute,1702,Applied Art,Virar,OPEN,OPEN(W),489,CAP-2,2025-26
+327,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,EWS,EWS,490,CAP-2,2025-26
+328,Rachana Sansad,1302,Applied Art,Mumbai,SC,SC,495,CAP-2,2025-26
+329,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OBC,OBC,496,CAP-2,2025-26
+330,Govt. Col of Art & Design,2201,Painting,Chatrapati Samb,OBC,OBC,497,CAP-2,2025-26
+331,Govt. Col of Art & Design,2201,Painting,Chatrapati Samb,OBC,OBC,498,CAP-2,2025-26
+332,Viva Institute,1702,Applied Art,Virar,OPEN,OPEN,499,CAP-2,2025-26
+333,Bharati Vidyapeeth Col,1602,Applied Art,Pune,SEBC,SEBC,503,CAP-2,2025-26
+334,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OBC,OBC,506,CAP-2,2025-26
+335,Bharati Vidyapeeth Col,1601,Painting,Pune,OPEN,OPEN,512,CAP-2,2025-26
+336,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,SC,SC,515,CAP-2,2025-26
+337,Viva Institute,1701,Painting,Virar,VJA,OPEN(W),517,CAP-2,2025-26
+338,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OBC,OBC,518,CAP-2,2025-26
+339,Bharati Vidyapeeth Col,1602,Applied Art,Pune,OBC,OBC,519,CAP-2,2025-26
+340,Sir J.J. School,1104,Int. Decoration,Mumbai,EWS,EWS,520,CAP-2,2025-26
+341,Viva Institute,1702,Applied Art,Virar,OPEN,OPEN,522,CAP-2,2025-26
+342,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",NTB,NTB,524,CAP-2,2025-26
+343,Govt. Col of Art & Design,2101,Painting,Nagpur,NTC,NTC,525,CAP-2,2025-26
+344,Rachana Sansad,1302,Applied Art,Mumbai,EWS,EWS,526,CAP-2,2025-26
+345,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OBC,OBC,532,CAP-2,2025-26
+346,Sir J.J. School,1103,Textile Design,Mumbai,SC,SC,537,CAP-2,2025-26
+347,Bharati Vidyapeeth Col,1601,Painting,Pune,EWS,EWS,538,CAP-2,2025-26
+348,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,VJA,VJA,542,CAP-2,2025-26
+349,Viva Institute,1702,Applied Art,Virar,OPEN,OPEN,543,CAP-2,2025-26
+350,Sanjeevan E&T Institute,1902,Applied Art,Kolhapur,OBC,OPEN,544,CAP-2,2025-26
+351,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,SEBC,SEBC,548,CAP-2,2025-26
+352,Viva Institute,1702,Applied Art,Virar,OPEN,OPEN,549,CAP-2,2025-26
+353,Aditya College of Archite,2002,Applied Art,"Borivali, Mumba",VJA,VJA,550,CAP-2,2025-26
+354,Bharati Vidyapeeth Col,1601,Painting,Pune,OPEN,OPEN,555,CAP-2,2025-26
+355,Bharati Vidyapeeth Col,1601,Painting,Pune,OPEN,OPEN,558,CAP-2,2025-26
+356,Viva Institute,1702,Applied Art,Virar,OPEN,OPEN,560,CAP-2,2025-26
+357,Viva Institute,1701,Painting,Virar,OPEN,OPEN(W),562,CAP-2,2025-26
+358,Bharati Vidyapeeth Col,1601,Painting,Pune,OPEN,OPEN,564,CAP-2,2025-26
+359,Govt. Col of Art & Design,2201,Painting,Chatrapati Samb,NTB,NTB,567,CAP-2,2025-26
+360,Sir J.J. Institute,1202,Applied Art,Mumbai,ST,ST,573,CAP-2,2025-26
+361,Sir J.J. Institute,1202,Applied Art,Mumbai,ST,ST,575,CAP-2,2025-26
+362,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,OPEN,OPEN,578,CAP-2,2025-26
+363,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OBC,OBC,583,CAP-2,2025-26
+364,Sir J.J. Institute,1202,Applied Art,Mumbai,NTC,NTC,586,CAP-2,2025-26
+365,Viva Institute,1702,Applied Art,Virar,SC,SC,589,CAP-2,2025-26
+366,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,OPEN,OPEN,593,CAP-2,2025-26
+367,Sir J.J. School,1107,Ceramics,Mumbai,SEBC,SEBC,595,CAP-2,2025-26
+368,Bharati Vidyapeeth Col,1601,Painting,Pune,ST,ST,597,CAP-2,2025-26
+369,Viva Institute,1702,Applied Art,Virar,OBC,OBC,605,CAP-2,2025-26
+370,Govt. Col of Art & Design,2101,Painting,Nagpur,SC,SC,606,CAP-2,2025-26
+371,Bharati Vidyapeeth Col,1601,Painting,Pune,OBC,OPEN,608,CAP-2,2025-26
+372,Sir J.J. School,1104,Int. Decoration,Mumbai,EWS,EWS,609,CAP-2,2025-26
+373,Viva Institute,1701,Painting,Virar,OBC,OPEN,612,CAP-2,2025-26
+374,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,OPEN,OPEN,614,CAP-2,2025-26
+375,Govt. Col of Art & Design,2203,Textile Design,Chatrapati Samb,ST,ST,617,CAP-2,2025-26
+376,Viva Institute,1701,Painting,Virar,SC,OPEN,621,CAP-2,2025-26
+377,Govt. Col of Art & Design,2102,Applied Art,Nagpur,SEBC,SEBC,623,CAP-2,2025-26
+378,Viva Institute,1702,Applied Art,Virar,OBC,OBC,626,CAP-2,2025-26
+379,Bharati Vidyapeeth Col,1602,Applied Art,Pune,EWS,EWS,629,CAP-2,2025-26
+380,Bharati Vidyapeeth Col,1602,Applied Art,Pune,NTB,NTB,630,CAP-2,2025-26
+381,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",SC,SC,634,CAP-2,2025-26
+382,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,OBC,OPEN,637,CAP-2,2025-26
+383,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",SC,SC,638,CAP-2,2025-26
+384,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",SC,SC,639,CAP-2,2025-26
+385,Bharati Vidyapeeth Col,1602,Applied Art,Pune,SC,SC,641,CAP-2,2025-26
+386,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",SC,SC,643,CAP-2,2025-26
+387,Viva Institute,1702,Applied Art,Virar,OBC,OBC,649,CAP-2,2025-26
+388,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OBC,OBC,650,CAP-2,2025-26
+389,Bharati Vidyapeeth Col,1601,Painting,Pune,OBC,OPEN,651,CAP-2,2025-26
+390,Sanjeevan E&T Institute,1902,Applied Art,Kolhapur,OBC,OPEN,659,CAP-2,2025-26
+391,Bharati Vidyapeeth Col,1602,Applied Art,Pune,SEBC,SEBC,660,CAP-2,2025-26
+392,Rachana Sansad,1302,Applied Art,Mumbai,NTB,NTB,662,CAP-2,2025-26
+393,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",OBC,OBC,667,CAP-2,2025-26
+394,Viva Institute,1702,Applied Art,Virar,OBC,OBC,669,CAP-2,2025-26
+395,Govt. Col of Art & Design,2101,Painting,Nagpur,EWS,EWS,675,CAP-2,2025-26
+396,Bharati Vidyapeeth Col,1602,Applied Art,Pune,SC,SC,681,CAP-2,2025-26
+397,Sir J.J. School,1106,Metal Work,Mumbai,SEBC,SEBC,682,CAP-2,2025-26
+398,Sanjeevan E&T Institute,1902,Applied Art,Kolhapur,OPEN,OPEN(W),683,CAP-2,2025-26
+399,Bharati Vidyapeeth Col,1602,Applied Art,Pune,ST,ST,692,CAP-2,2025-26
+400,Bharati Vidyapeeth Col,1601,Painting,Pune,OBC,OBC,696,CAP-2,2025-26
+401,Govt. Col of Art & Design,2101,Painting,Nagpur,VJA,VJA,701,CAP-2,2025-26
+402,Bharati Vidyapeeth Col,1601,Painting,Pune,OBC,OBC,710,CAP-2,2025-26
+403,Viva Institute,1701,Painting,Virar,OPEN,OPEN,714,CAP-2,2025-26
+404,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,OPEN,OPEN,716,CAP-2,2025-26
+405,Govt. Col of Art & Design,2102,Applied Art,Nagpur,EWS,EWS,717,CAP-2,2025-26
+406,Viva Institute,1701,Painting,Virar,SBC,OPEN(W),721,CAP-2,2025-26
+407,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,SEBC,SEBC,723,CAP-2,2025-26
+408,Sanjeevan E&T Institute,1902,Applied Art,Kolhapur,OPEN,OPEN,728,CAP-2,2025-26
+409,Bharati Vidyapeeth Col,1601,Painting,Pune,OBC,OBC,730,CAP-2,2025-26
+410,Rachana Sansad,1302,Applied Art,Mumbai,EWS,EWS,746,CAP-2,2025-26
+411,Bharati Vidyapeeth Col,1601,Painting,Pune,OBC,OBC,752,CAP-2,2025-26
+412,Sir J.J. School,1104,Int. Decoration,Mumbai,ST,ST,755,CAP-2,2025-26
+413,Govt. Col of Art & Design,2102,Applied Art,Nagpur,ST,ST,757,CAP-2,2025-26
+414,Rachana Sansad,1302,Applied Art,Mumbai,EWS,EWS,759,CAP-2,2025-26
+415,Rachana Sansad,1302,Applied Art,Mumbai,SEBC,SEBC,763,CAP-2,2025-26
+416,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,EWS,EWS,766,CAP-2,2025-26
+417,Bharati Vidyapeeth Col,1602,Applied Art,Pune,SEBC,SEBC,769,CAP-2,2025-26
+418,Viva Institute,1701,Painting,Virar,OPEN,OPEN,771,CAP-2,2025-26
+419,Viva Institute,1702,Applied Art,Virar,SC,SC,772,CAP-2,2025-26
+420,Bharati Vidyapeeth Col,1601,Painting,Pune,SC,SC,774,CAP-2,2025-26
+421,Viva Institute,1702,Applied Art,Virar,OBC,OBC,775,CAP-2,2025-26
+422,Sanjeevan E&T Institute,1902,Applied Art,Kolhapur,OPEN,OPEN,776,CAP-2,2025-26
+423,Bharati Vidyapeeth Col,1601,Painting,Pune,SC,SC,778,CAP-2,2025-26
+424,Viva Institute,1702,Applied Art,Virar,OBC,OBC,782,CAP-2,2025-26
+425,Rachana Sansad,1302,Applied Art,Mumbai,ST,ST,783,CAP-2,2025-26
+426,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,SC,SC,784,CAP-2,2025-26
+427,Govt. Col of Art & Design,2101,Painting,Nagpur,SC,SC,797,CAP-2,2025-26
+428,Bharati Vidyapeeth Col,1602,Applied Art,Pune,SC,SC,802,CAP-2,2025-26
+429,Viva Institute,1702,Applied Art,Virar,SC,SC,804,CAP-2,2025-26
+430,Aditya College of Archite,2002,Applied Art,"Borivali, Mumba",SC,SC,816,CAP-2,2025-26
+431,Bharati Vidyapeeth Col,1601,Painting,Pune,SC,SC,817,CAP-2,2025-26
+432,Viva Institute,1701,Painting,Virar,SC,SC,820,CAP-2,2025-26
+433,Viva Institute,1701,Painting,Virar,SC,SC,830,CAP-2,2025-26
+434,Rachana Sansad,1302,Applied Art,Mumbai,SEBC,SEBC,832,CAP-2,2025-26
+435,Bharati Vidyapeeth Col,1602,Applied Art,Pune,SEBC,SEBC,842,CAP-2,2025-26
+436,Govt. Col of Art & Design,2201,Painting,Chatrapati Samb,EWS,EWS,845,CAP-2,2025-26
+437,Govt. Col of Art & Design,2102,Applied Art,Nagpur,EWS,EWS,853,CAP-2,2025-26
+438,Bharati Vidyapeeth Col,1601,Painting,Pune,SEBC,SEBC,859,CAP-2,2025-26
+439,Sanjeevan E&T Institute,1902,Applied Art,Kolhapur,OBC,OBC,868,CAP-2,2025-26
+440,Viva Institute,1701,Painting,Virar,OBC,OBC,869,CAP-2,2025-26
+441,Govt. Col of Art & Design,2101,Painting,Nagpur,ST,ST,870,CAP-2,2025-26
+442,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,OBC,OBC,877,CAP-2,2025-26
+443,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,ST,ST,880,CAP-2,2025-26
+444,Sanjeevan E&T Institute,1902,Applied Art,Kolhapur,OBC,OBC,887,CAP-2,2025-26
+445,Govt. Col of Art & Design,2203,Textile Design,Chatrapati Samb,SC,SC,899,CAP-2,2025-26
+446,Aditya College of Archite,2002,Applied Art,"Borivali, Mumba",OBC,OBC,903,CAP-2,2025-26
+447,Rachana Sansad,1302,Applied Art,Mumbai,SEBC,SEBC,904,CAP-2,2025-26
+448,Aditya College of Archite,2002,Applied Art,"Borivali, Mumba",OBC,OBC,911,CAP-2,2025-26
+449,Sir J.J. School,1104,Int. Decoration,Mumbai,NTC,NTC,913,CAP-2,2025-26
+450,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,NTC,NTC,915,CAP-2,2025-26
+451,Viva Institute,1702,Applied Art,Virar,NTB,NTB,916,CAP-2,2025-26
+452,Bharati Vidyapeeth Col,1602,Applied Art,Pune,VJA,VJA,929,CAP-2,2025-26
+453,Govt. Col of Art & Design,2102,Applied Art,Nagpur,SEBC,SEBC,933,CAP-2,2025-26
+454,KCE`S Moolji Jaitha Colle,2301,Painting,Jalgaon,OBC,OPEN,935,CAP-2,2025-26
+455,Sanjeevan E&T Institute,1902,Applied Art,Kolhapur,OBC,OBC,936,CAP-2,2025-26
+456,KCE`S Moolji Jaitha Colle,2302,Applied Art,Jalgaon,NTB,OPEN(W),940,CAP-2,2025-26
+457,Govt. Col of Art & Design,2203,Textile Design,Chatrapati Samb,EWS,EWS,941,CAP-2,2025-26
+458,Sanjeevan E&T Institute,1902,Applied Art,Kolhapur,SC,SC,946,CAP-2,2025-26
+459,KCE`S Moolji Jaitha Colle,2302,Applied Art,Jalgaon,OBC,OPEN(W),955,CAP-2,2025-26
+460,Sir J.J. Institute,1202,Applied Art,Mumbai,NTC,NTC,956,CAP-2,2025-26
+461,Govt. Col of Art & Design,2101,Painting,Nagpur,SEBC,SEBC,967,CAP-2,2025-26
+462,Govt. Col of Art & Design,2201,Painting,Chatrapati Samb,SC,SC,982,CAP-2,2025-26
+463,Aditya College of Archite,2002,Applied Art,"Borivali, Mumba",SC,SC,985,CAP-2,2025-26
+464,Viva Institute,1702,Applied Art,Virar,SC,SC,992,CAP-2,2025-26
+465,Sanjeevan E&T Institute,1902,Applied Art,Kolhapur,SC,SC,995,CAP-2,2025-26
+466,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,SC,SC,996,CAP-2,2025-26
+467,Viva Institute,1702,Applied Art,Virar,SC,SC,1003,CAP-2,2025-26
+468,Bharati Vidyapeeth Col,1601,Painting,Pune,NTB,NTB,1007,CAP-2,2025-26
+469,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,OBC,OBC,1008,CAP-2,2025-26
+470,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,OBC,OBC,1017,CAP-2,2025-26
+471,Viva Institute,1701,Painting,Virar,NTC,NTC,1027,CAP-2,2025-26
+472,KCE`S Moolji Jaitha Colle,2302,Applied Art,Jalgaon,OBC,OPEN,1031,CAP-2,2025-26
+473,Aditya College of Archite,2002,Applied Art,"Borivali, Mumba",OBC,OBC,1034,CAP-2,2025-26
+474,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,SC,SC,1036,CAP-2,2025-26
+475,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,OBC,OBC,1040,CAP-2,2025-26
+476,Aditya College of Archite,2002,Applied Art,"Borivali, Mumba",OBC,OBC,1044,CAP-2,2025-26
+477,Sanjeevan E&T Institute,1902,Applied Art,Kolhapur,OBC,OBC,1048,CAP-2,2025-26
+478,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,SEBC,SEBC,1049,CAP-2,2025-26
+479,Rachana Sansad,1302,Applied Art,Mumbai,EWS,EWS,1053,CAP-2,2025-26
+480,KCE`S Moolji Jaitha Colle,2301,Painting,Jalgaon,OPEN,OPEN,1058,CAP-2,2025-26
+481,Govt. Col of Art & Design,2101,Painting,Nagpur,EWS,EWS,1068,CAP-2,2025-26
+482,Viva Institute,1701,Painting,Virar,OBC,OBC,1074,CAP-2,2025-26
+483,Rachana Sansad,1302,Applied Art,Mumbai,EWS,EWS,1077,CAP-2,2025-26
+484,KCE`S Moolji Jaitha Colle,2302,Applied Art,Jalgaon,OBC,OPEN,1084,CAP-2,2025-26
+485,Govt. Col of Art & Design,2101,Painting,Nagpur,ST,ST,1090,CAP-2,2025-26
+486,KCE`S Moolji Jaitha Colle,2302,Applied Art,Jalgaon,OPEN,OPEN,1097,CAP-2,2025-26
+487,Viva Institute,1702,Applied Art,Virar,EWS,EWS,1100,CAP-2,2025-26
+488,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,SEBC,SEBC,1107,CAP-2,2025-26
+489,Viva Institute,1702,Applied Art,Virar,EWS,EWS,1120,CAP-2,2025-26
+490,Viva Institute,1701,Painting,Virar,OBC,OBC,1125,CAP-2,2025-26
+491,Govt. Col of Art & Design,2202,Applied Art,Chatrapati Samb,ST,ST,1126,CAP-2,2025-26
+492,Viva Institute,1701,Painting,Virar,OBC,OBC,1132,CAP-2,2025-26
+493,KCE`S Moolji Jaitha Colle,2302,Applied Art,Jalgaon,EWS,EWS,1136,CAP-2,2025-26
+494,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,SEBC,SEBC,1137,CAP-2,2025-26
+495,BS Bandekar Col,1402,Applied Art,Sawantwadi Sind,SC,SC,1140,CAP-2,2025-26
+496,Govt. Col of Art & Design,2102,Applied Art,Nagpur,ST,ST,1149,CAP-2,2025-26
+497,KCE`S Moolji Jaitha Colle,2302,Applied Art,Jalgaon,SC,OPEN,1151,CAP-2,2025-26
+498,Sir J.J. School,1106,Metal Work,Mumbai,EWS,EWS,1157,CAP-2,2025-26
+499,Viva Institute,1702,Applied Art,Virar,SEBC,SEBC,1162,CAP-2,2025-26
+500,KCE`S Moolji Jaitha Colle,2302,Applied Art,Jalgaon,OBC,OBC,1167,CAP-2,2025-26
+501,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",NTC,NTC,1168,CAP-2,2025-26
+502,KCE`S Moolji Jaitha Colle,2302,Applied Art,Jalgaon,OBC,OBC,1170,CAP-2,2025-26
+503,Bharati Vidyapeeth Col,1602,Applied Art,Pune,EWS,EWS,1194,CAP-2,2025-26
+504,Pad. V. Patil Col,1802,Applied Art,"Sion, Mumbai",SEBC,SEBC,1206,CAP-2,2025-26
+505,KCE`S Moolji Jaitha Colle,2302,Applied Art,Jalgaon,OBC,OBC,1209,CAP-2,2025-26
+506,KCE`S Moolji Jaitha Colle,2301,Painting,Jalgaon,VJA,OPEN(W),1211,CAP-2,2025-26
+507,Rachana Sansad,1302,Applied Art,Mumbai,ST,ST,1213,CAP-2,2025-26
+508,Govt. Col of Art & Design,2203,Textile Design,Chatrapati Samb,EWS,EWS,1216,CAP-2,2025-26
+509,KCE`S Moolji Jaitha Colle,2301,Painting,Jalgaon,OPEN,OPEN(W),1220,CAP-2,2025-26
+510,Bharati Vidyapeeth Col,1602,Applied Art,Pune,ST,ST,1223,CAP-2,2025-26
+511,Bharati Vidyapeeth Col,1602,Applied Art,Pune,ST,ST,1244,CAP-2,2025-26
+512,Govt. Col of Art & Design,2201,Painting,Chatrapati Samb,ST,ST,1248,CAP-2,2025-26
+513,KCE`S Moolji Jaitha Colle,2302,Applied Art,Jalgaon,OBC,OBC,1267,CAP-2,2025-26
+514,Viva Institute,1702,Applied Art,Virar,SEBC,SEBC,1277,CAP-2,2025-26
+515,KCE`S Moolji Jaitha Colle,2302,Applied Art,Jalgaon,SC,SC,1290,CAP-2,2025-26
+516,Govt. Col of Art & Design,2201,Painting,Chatrapati Samb,SEBC,SEBC,1298,CAP-2,2025-26
